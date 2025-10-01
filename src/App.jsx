@@ -33,7 +33,6 @@ export default function App() {
     setTasks(tasks.filter((_, i) => i !== index));
   };
 
-  // Enter bosilganda addTask chaqirish uchun handler
   const handleKeyDown = (e, field) => {
     if (e.key === "Enter") {
       if (!name.trim() || !surname.trim()) return;
